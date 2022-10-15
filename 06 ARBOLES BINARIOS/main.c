@@ -21,13 +21,16 @@ int main(int argc, char** argv) {
     construirArbolBinario(&arbolDer3);
     
     plantarArbolBinario(&arbol, arbolIzq, 20, arbolDer);
+    plantarArbolBinario(&arbolIzq2, NULL, 50, NULL);
+    plantarArbolBinario(&arbolDer2, NULL, 100, NULL);
     plantarArbolBinario(&arbol->hijoIzq, arbolIzq2, 10, arbolDer2);
     plantarArbolBinario(&arbol->hijoDer, arbolIzq3, 30, arbolDer3);
+    
     recorridoPorNivel(arbol);
     printf("\n");
-    enOrden(arbol);
+    //enOrden(arbol);
     printf("\n");
-    postOrden(arbol);
+    //postOrden(arbol);
     printf("\n");
     preOrden(arbol);
     int alt;

@@ -1,19 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-
-typedef int ElementoPila;
-
-typedef struct nodo
-{
-    ElementoPila elemento;
-    struct nodo *sig;
-} Nodo;
-
-typedef struct pila
-{
-    Nodo *cima;
-    int longitud;
-} Pila;
+#include "pila.h"
 
 void construirPila( Pila *pP )
 {
@@ -76,31 +63,4 @@ ElementoPila desapilar( Pila *pP )
     pP->longitud--;
     free(pNodo);
     return elemento;
-}
-
-int main()
-{ 
-    Pila S;
-    int longS;
-    ElementoPila e;
-    construirPila( &S );
-    mostrar( S );
-    apilar( &S, 10 );
-    mostrar( S );
-    apilar( &S, 20 );
-    mostrar( S );
-    apilar( &S, 30 );
-    mostrar( S );
-    
-    longS = obtenerLongitud( S);
-    printf("La pila tiene %d elementos\n",longS );
-    while( !esPilaVacia(S) )
-    {
-        e = desapilar( &S );
-        printf("Elemento desapilado: %d\n",e);
-        mostrar( S );
-    }
-    longS = obtenerLongitud( S);
-    printf("La pila tiene %d elementos\n",longS );
-    return 0;
 }

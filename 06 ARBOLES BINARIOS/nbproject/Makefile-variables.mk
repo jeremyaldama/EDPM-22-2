@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=MinGW-Windows
 CND_ARTIFACT_DIR_Debug=dist/Debug/MinGW-Windows
-CND_ARTIFACT_NAME_Debug=arboles_binarios
-CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/arboles_binarios
+CND_ARTIFACT_NAME_Debug=06_arboles_binarios
+CND_ARTIFACT_PATH_Debug=dist/Debug/MinGW-Windows/06_arboles_binarios
 CND_PACKAGE_DIR_Debug=dist/Debug/MinGW-Windows/package
-CND_PACKAGE_NAME_Debug=arbolesbinarios.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/arbolesbinarios.tar
+CND_PACKAGE_NAME_Debug=06arbolesbinarios.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/MinGW-Windows/package/06arbolesbinarios.tar
 # Release configuration
 CND_PLATFORM_Release=MinGW-Windows
 CND_ARTIFACT_DIR_Release=dist/Release/MinGW-Windows
-CND_ARTIFACT_NAME_Release=arboles_binarios
-CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/arboles_binarios
+CND_ARTIFACT_NAME_Release=06_arboles_binarios
+CND_ARTIFACT_PATH_Release=dist/Release/MinGW-Windows/06_arboles_binarios
 CND_PACKAGE_DIR_Release=dist/Release/MinGW-Windows/package
-CND_PACKAGE_NAME_Release=arbolesbinarios.tar
-CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/arbolesbinarios.tar
+CND_PACKAGE_NAME_Release=06arbolesbinarios.tar
+CND_PACKAGE_PATH_Release=dist/Release/MinGW-Windows/package/06arbolesbinarios.tar
 #
 # include compiler specific variables
 #
